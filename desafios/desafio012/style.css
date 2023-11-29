@@ -46,7 +46,7 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: lightgray;
+    color: rgba(236, 236, 236, 0.664);
 }
 
 section{
@@ -58,19 +58,34 @@ section{
     line-height: 2em;
 }
 
+section.imagem{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    box-shadow: inset 5px 5px 15px 0px rgb(0, 0, 0);
+    background-attachment: fixed;
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 section.normal{
     background-color: white;
     color: black;
 }
 
-section.imagem{
-    background-color: rgb(54, 54, 54);
-    color: white;
-}
-
 section.imagem>p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.151);
-    width: 400px;
 }
 
 footer{
